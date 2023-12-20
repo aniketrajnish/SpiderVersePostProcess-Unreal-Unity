@@ -34,11 +34,11 @@ MonoBehaviour:
     hdr: 0
   dotsDensity:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 100
   dotsCutoff:
     m_OverrideState: 1
     m_Value: 0.4
-  scrollDirection:
+  scrollVelocity:
     m_OverrideState: 0
     m_Value: {x: 0, y: 0}
 --- !u!114 &11400000

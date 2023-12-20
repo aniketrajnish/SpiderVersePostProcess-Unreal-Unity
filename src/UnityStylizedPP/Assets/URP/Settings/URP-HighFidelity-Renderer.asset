@@ -53,8 +53,8 @@ MonoBehaviour:
     hdrDebugViewPS: {fileID: 4800000, guid: 573620ae32aec764abd4d728906d2587, type: 3}
   m_RendererFeatures:
   - {fileID: -1878332245247344467}
-  - {fileID: 406836035131391055}
-  m_RendererFeatureMap: adc0de57c6d2eee54fbcd5eb375fa505
+  - {fileID: 3834735147827168086}
+  m_RendererFeatureMap: adc0de57c6d2eee55683f1b54cb73735
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -95,7 +95,7 @@ MonoBehaviour:
   m_CopyDepthMode: 0
   m_AccurateGbufferNormals: 0
   m_IntermediateTextureMode: 1
---- !u!114 &406836035131391055
+--- !u!114 &3834735147827168086
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,7 +105,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c75607c1a047e22428a583c76deb305e, type: 3}
-  m_Name: StylizedRenderFeature
+  m_Name: StylizedRendererFeature
   m_EditorClassIdentifier: 
   m_Active: 1
   m_bloomShader: {fileID: 4800000, guid: ad34626e025245c4396ed8f1a1c356e1, type: 3}

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-5790911087796177114
+--- !u!114 &-687917551729619346
 MonoBehaviour:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18,7 +18,7 @@ MonoBehaviour:
     m_Value: 0.9
   intensity:
     m_OverrideState: 1
-    m_Value: 1.2
+    m_Value: 1
   scatter:
     m_OverrideState: 1
     m_Value: 0.7
@@ -34,7 +34,7 @@ MonoBehaviour:
     hdr: 0
   dotsDensity:
     m_OverrideState: 1
-    m_Value: 100
+    m_Value: 10
   dotsCutoff:
     m_OverrideState: 1
     m_Value: 0.4
@@ -54,8 +54,8 @@ MonoBehaviour:
   m_Name: Global Volume Profile
   m_EditorClassIdentifier: 
   components:
-  - {fileID: -5790911087796177114}
   - {fileID: 5449857057332612448}
+  - {fileID: -687917551729619346}
 --- !u!114 &5449857057332612448
 MonoBehaviour:
   m_ObjectHideFlags: 3

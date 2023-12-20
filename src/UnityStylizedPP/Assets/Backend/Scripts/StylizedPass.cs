@@ -96,7 +96,7 @@ public class StylizedPass : ScriptableRenderPass
             //Setup stylized values
             m_stylizedMaterial.SetFloat("_Cutoff", m_stylEffect.dotsCutoff.value);
             m_stylizedMaterial.SetFloat("_Density", m_stylEffect.dotsDensity.value);
-            m_stylizedMaterial.SetVector("_Direction", m_stylEffect.scrollDirection.value);
+            m_stylizedMaterial.SetVector("_Direction", m_stylEffect.scrollVelocity.value);
         
             Blitter.BlitCameraTexture(cmd, m_CameraColorTarget, m_CameraColorTarget, m_stylizedMaterial, 0);
         }

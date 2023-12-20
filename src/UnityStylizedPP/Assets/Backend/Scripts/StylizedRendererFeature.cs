@@ -5,7 +5,7 @@ using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
 
 [System.Serializable]
-public class StylizedRenderFeature : ScriptableRendererFeature
+public class StylizedRendererFeature : ScriptableRendererFeature
 {
     [SerializeField]
     private Shader m_bloomShader;
